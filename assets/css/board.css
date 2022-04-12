@@ -1,0 +1,96 @@
+@charset "UTF-8";
+
+/* 게시판 Breadcrumbs */
+#main-content > #main-content-header ol{
+	float: right;
+}
+
+#main-content > #main-content-header ol>li{
+	float: left;
+	padding-left: 5px;
+	/* border:1px solid #000000; */
+}
+
+#main-content > #main-content-header ol>li:after {
+	content: ">";
+	padding-left: 5px;
+}
+
+#main-content > #main-content-header ol>li.list-last:after{
+	content: "";
+}
+
+#main-content{
+	padding-bottom: 25px;
+}
+
+/* 게시판 내 검색 */
+#table-s-back{
+	height: 70px;
+	margin-bottom: 8px;
+}
+
+#txt-s{
+	width: 180px;
+	height: 25px;
+	float: right;
+	margin: 30px 5px 0px 0px;
+}
+
+.butn-s{
+	width: 60px;
+	height: 30px;
+	float: right;
+	margin: 30px 0px 0px 0px;
+}
+
+/* 게시판 테이블 */
+#contents > #main-content > table{
+	text-align: center;
+    border-collapse: collapse; 
+    border-bottom: 1px solid #808080;   
+    height: 180px;
+}
+
+#contents > #main-content > table > thead > tr{
+	background-color: #dddddd;
+	border-top: 2px solid #808080;
+	border-bottom: 1px dotted #808080;
+	height: 30px; 
+}
+
+#contents > #main-content > table > tbody > tr{
+	border-bottom: 1px dotted #808080;
+}
+
+.td{
+	padding: 0px 0px 0px 20px;
+}
+
+/* 게시판 테이블 및 번호순서 */
+#contents > #main-content > .li-order  li{
+	display: inline;
+	margin: 0px 7px 0px 0px;
+	font-size: 14px;
+	text-align: center;
+	
+}
+.li-order{
+	padding: 20px 0px 0px 0px;
+	text-align: center;
+}
+.wri{
+	float: right;	
+	padding: 3px 12px;
+}
+
+
+
+
+
+
+
+
+
+
+

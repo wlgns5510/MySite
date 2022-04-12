@@ -1,0 +1,58 @@
+@charset "UTF-8";
+
+/* 폼 간격관련 */
+.form-group2{
+	border-bottom: 1px solid #bfbfbf;
+	padding: 17px 0px 17px 0px;
+}
+
+/* 폼 제목/내용 사이 간격 */
+.form-title{
+	width: 80px;
+	display: inline-block;
+}
+
+.form-intro{
+	float: left;
+}
+
+/* input 태그넓이간격 */
+input[type="text"]{
+	height: 20px;
+}
+
+input[type="password"]{
+	height: 20px;
+}
+
+select{
+	height: 25px;
+}
+input[type="radio"]{
+	margin-right: 10px;
+}
+
+input[type="checkbox"]{
+	margin-right: 10px;
+}
+
+.label-d{
+	margin-right: 3px;
+}
+/* 주소관련 */
+.address{
+	width:500px;
+	margin: 7px 0px 0px 83px;
+}
+
+/* 등록/초기화 버튼 */
+.butn{
+	padding: 5px 0px 5px 0px;	
+	width: 80px;
+	cursor: pointer;
+}
+.butn-center{
+	padding: 20px 0px 20px 0px;
+	text-align: center;
+	margin-right: 230px;
+}

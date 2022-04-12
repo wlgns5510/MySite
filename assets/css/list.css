@@ -1,0 +1,56 @@
+@charset "UTF-8";
+/* ************************ 게시판 메인 *************************** */
+
+
+
+
+/* ************************ 리스트 *************************** */
+#main-content-body{
+	padding: 20px 0px 0px 0px;
+}
+
+#main-content-header {
+	overflow: hidden;
+}
+
+#main-content-body{
+	border-bottom: 1px solid #bfbfbf;
+}
+
+#main-content-body #list-search {
+	float: right;
+	padding: 0px 0px 8px 0px;
+}
+
+#main-content-body table {
+	width: 820px;
+	border-collapse: collapse;
+	text-align: center;
+}
+
+#main-content-body tr {
+	border-top: 1px dotted #ddddd9;
+}
+#main-content-body th {
+	border-top: 1px solid #bfbfbf;
+	padding: 6px 0px 6px 0px;
+	background-color: #dddddd;
+}
+#main-content-body td {
+	padding: 6px 0px 6px 0px;
+}
+#main-content-body #txt-search {
+	width: 150px;
+}
+
+
+/* ************************ 푸터 *************************** */
+#main-content-footer>ul>li {
+	text-align: center;
+	vertical-align: middle;
+}
+
+#main-content-footer>ul>li {
+	float: left;
+	padding: 0px 5px 0px 5px;
+}

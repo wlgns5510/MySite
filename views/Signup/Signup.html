@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<link rel="stylesheet"  href="C:\javaStudy\workspace_front\mysite\assets\css\mysite.css">
+<link rel="stylesheet"  href="C:\javaStudy\workspace_front\mysite\assets\css\board.css">
+<link rel="stylesheet"  href="C:\javaStudy\workspace_front\mysite\assets\css\Signup.css">
+</head>
+<body>
+
+<div id="wrap">
+	<div id="header" class="clearfix">
+		<h1>Mysite</h1>
+		<ul class="clearfix"> 
+			<li><a href="">로그인</a></li>
+			<li><a href="">회원가입</a></li>
+		</ul>
+	</div>
+	<!-- //header -->
+
+	<div id="nav">
+		<ul class="clearfix">
+			<li>입사지원서</li>
+			<li>게시판</li>
+			<li>갤러리</li>
+			<li>방명록</li>
+		</ul>
+	</div>
+	<!-- //nav -->
+
+
+	<div id="contents" class="clearfix">
+		<div id="aside">
+			<h2>회원</h2>
+		
+			<ul>
+				<li>회원가입</li>
+				<li>로그인</li>
+				<li>id/pw찾기</li>
+			</ul>
+		</div>
+		<!-- //aside -->
+		<div id="main-content">
+			<!-- 아이디 -->
+			<div class="form-group2">
+				<label for="id" class="form-title">아이디</label>
+				<input id="id" type="text">
+			</div>
+			
+			<!-- 패스워드 -->
+			<div class="form-group2">
+				<label for ="pw" class="form-title">비밀번호</label>
+				<input id="pw" type="password">
+			</div>
+			
+			<!-- 이름 -->
+			<div class="form-group2">
+				<label for ="name" class="form-title">이름</label>
+				<input id="name" type="text">
+			</div>
+			
+			<!-- 프로필사진 -->
+			<div class="form-group2">
+				<label for="profile" class="form-title">프로필사진</label>
+				<input id="profile" type="file">
+			</div>
+			
+			
+			
+			<!-- 주소 -->
+			<div class="form-group2">
+				<label for ="address" class="form-title">주소</label>
+				<input id="address" type="text">
+				<button>우편번호찾기</button>
+				
+				<input id="address2" type="text" class="address">
+			</div>
+			
+			<!-- 이동통신사 -->
+			<div class="form-group2">
+				<label for="mobile-carrier" class="form-title">이동통신사</label>
+				<select id="mobile-carrier">
+					<option>선택해주세요</option>
+					<option>SKT</option>
+					<option>KTX</option>
+					<option>LGU</option>
+				</select>
+			</div>
+			
+			<!-- 나이 -->
+			<div class="form-group2">
+	            <span class="form-title">나이</span>           
+	       	    <label for="a10" class="label-d">10대</label><input id="a10" type="radio" name="age">
+	            <label for="a20" class="label-d">20대</label><input id="a20" type="radio" name="age">
+	            <label for="a30" class="label-d">30대</label><input id="a30" type="radio" name="age">
+	            <label for="a40" class="label-d">40대</label><input id="a40" type="radio" name="age">
+	            <label for="etc" class="label-d">기타</label><input id="etc" type="radio" name="age">
+            </div>
+            
+            <!-- 취미 -->
+			<div class="form-group2">
+	            <span class="form-title">취미</span>           
+	       	    <label for="txt-bo" class="label-d">독서</label><input id="txt-bo" type="checkbox" name="hobby">
+	            <label for="txt-mu" class="label-d">음악</label><input id="txt-mu" type="checkbox" name="hobby">
+	            <label for="txt-tr" class="label-d">여행</label><input id="txt-tr" type="checkbox" name="hobby">
+	            <label for="txt-mo" class="label-d">영화</label><input id="txt-mo" type="checkbox" name="hobby">
+	            <label for="txt-co" class="label-d">코딩</label><input id="txt-co" type="checkbox" name="hobby">
+	            <label for="etc2" class="label-d">기타</label><input id="etc2" type="checkbox" name="hobby">
+            </div>
+            
+            <!-- 자기소개 -->
+            <div class="form-group2">
+				<label for="intro" class="form-title form-intro">자기소개</label>
+				<textarea id="intro" rows="7" cols="60"></textarea>
+			</div>
+			
+			<!-- 등록/초기화 -->
+			<div class="butn-center">
+				<button class="butn">등록</button>
+				<button class="butn">초기화</button>
+			</div>
+            
+            
+		
+			
+			
+	
+	
+	
+	
+	
+	
+		</div>
+		<!-- //main-content -->
+	</div>
+	<!-- //full-contents -->
+	
+	<div id="footer">
+		Copyright ⓒ 2020 황일영, All right reserved
+	</div>
+	<!-- //footer -->
+	
+</div>
+<!-- //wrap -->
+
+</body>
+</html>
